@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.js"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "parcel-transformer-gren": "*"
+  }
+}
