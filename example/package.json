@@ -5,7 +5,7 @@
   },
   "devDependencies": {
     "parcel": "^2.8.0",
-    "parcel-transformer-gren": "^0.0.5"
+    "parcel-transformer-gren": "^0.0.6"
   },
   "dependencies": {
     "gren-lang": "^0.2.3"
