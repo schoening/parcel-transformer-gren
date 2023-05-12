@@ -4,9 +4,10 @@
     "build": "parcel build index.js"
   },
   "devDependencies": {
-    "parcel": "^2.8.0"
+    "parcel": "^2.8.0",
+    "parcel-transformer-gren": "^0.0.5"
   },
   "dependencies": {
-    "parcel-transformer-gren": "*"
+    "gren-lang": "^0.2.3"
   }
 }

@@ -1,7 +1,7 @@
 const { Transformer } = require("@parcel/plugin");
 const ThrowableDiagnostic = require("@parcel/diagnostic");
 
-const compiler = require("../gren-compiler");
+const compiler = require("./gren-compiler");
 
 module.exports = new Transformer({
   async transform({ asset, logger }) {
