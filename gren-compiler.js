@@ -4,7 +4,6 @@ const fs = require("fs");
 const { exec, spawn } = require("child_process");
 
 // Compile the gren project with the given folder name
-// Using Main.gren as the entry point
 const compile = (pathToFile, fileName, outputFile, isDebugMode) => {
   return new Promise((resolve, reject) => {
     exec(
